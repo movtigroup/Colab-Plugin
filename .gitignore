@@ -1,0 +1,6 @@
+# Local tool state, never publish
+.mimosa/
+
+# OS noise
+Thumbs.db
+.DS_Store

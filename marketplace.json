@@ -1,0 +1,17 @@
+{
+  "name": "movti-colab",
+  "plugins": [
+    {
+      "name": "colab",
+      "source": "./colab",
+      "version": "0.1.0",
+      "description": "Google Colab integration for ZCode: the official colab-mcp browser-bridge MCP server plus a google-colab-cli command reference for provisioning Colab runtimes (CPU/GPU/TPU), executing code, and transferring files.",
+      "displayName": "Google Colab Tools",
+      "displayName_i18n": { "fa": "ابزارهای گوگل کولب" },
+      "description_i18n": {
+        "zh-CN": "官方 colab-mcp 浏览器桥接 MCP 服务器与 google-colab-cli 命令参考：提供 GPU/TPU 运行时、代码执行和文件传输",
+        "fa": "یکپارچه‌سازی گوگل کولب برای ZCode: سرور رسمی colab-mcp (پل مرورگر) به‌همراه مرجع دستورات google-colab-cli برای ساخت ران‌تایم‌های GPU/TPU، اجرای کد و انتقال فایل"
+      }
+    }
+  ]
+}
