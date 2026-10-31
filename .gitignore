@@ -1,6 +1,10 @@
 # Local tool state, never publish
 .mimosa/
 
+# Python build artifacts
+__pycache__/
+*.pyc
+
 # OS noise
 Thumbs.db
 .DS_Store
