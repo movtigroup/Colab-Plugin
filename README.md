@@ -2,7 +2,7 @@
 
 # 🔬 Google Colab Tools for ZCode
 
-**The official Google Colab experience, inside your AI agent.**
+**Google Colab, inside your AI agent — powered by Google's official open-source tools, built independently.**
 
 A professional ZCode plugin integrating Google's official [colab-mcp](https://github.com/googlecolab/colab-mcp) browser-bridge MCP server and the [google-colab-cli](https://github.com/googlecolab/google-colab-cli) headless CLI — provision GPU/TPU runtimes, run code, and manage files on Google Colab without ever leaving your agent.
 
