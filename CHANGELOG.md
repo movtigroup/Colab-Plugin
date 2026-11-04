@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project adheres to [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Added
+
+- Automated GitHub Release pipeline (`scripts/release/publish.sh` + `.github/workflows/release.yml`): every push to `main` that introduces a new manifest version is automatically tagged `v<version>`, validated, packaged as a plugin zip asset and published as a GitHub Release with generated notes. Tag pushes are supported too, guarded to match the manifest version.
+
 ## [0.1.1] - 2026-10-31
 
 ### Added

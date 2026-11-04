@@ -1,0 +1,39 @@
+name: Release
+
+# Automated release pipeline. Logic lives in scripts/release/publish.sh
+# (testable locally) so this workflow stays a thin wrapper.
+#
+#   * push to main      -> tags v<manifest version> if missing, validates,
+#                          packages a plugin zip and publishes a GitHub
+#                          Release with generated notes.
+#   * push of a v* tag  -> same pipeline, guarded to match the manifest.
+#   * workflow_dispatch -> manual run from the Actions tab.
+#
+# Idempotent: versions whose tag already exists are skipped.
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*.*.*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Validate, tag and publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate repository
+        run: python scripts/validate.py
+      - name: Tag and publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/release/publish.sh
