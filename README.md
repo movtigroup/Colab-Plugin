@@ -7,11 +7,11 @@
 A professional ZCode plugin integrating Google's official [colab-mcp](https://github.com/googlecolab/colab-mcp) browser-bridge MCP server and the [google-colab-cli](https://github.com/googlecolab/google-colab-cli) headless CLI — provision GPU/TPU runtimes, run code, and manage files on Google Colab without ever leaving your agent.
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue?logo=apache&logoColor=white)](LICENSE)
-[![Release](https://img.shields.io/github/v/tag/movtigroup/colab?label=release&logo=git&logoColor=white)](CHANGELOG.md)
-[![CI](https://img.shields.io/github/actions/workflow/status/movtigroup/colab/validate.yml?branch=main&label=CI&logo=githubactions&logoColor=white)](.github/workflows/validate.yml)
-[![Last Commit](https://img.shields.io/github/last-commit/movtigroup/colab/main?logo=git&logoColor=white)](../../commits/main)
-[![Stars](https://img.shields.io/github/stars/movtigroup/colab?logo=github&label=stars)](../../stargazers)
-[![Repo Size](https://img.shields.io/github/repo-size/movtigroup/colab?label=size)](../../)
+[![Release](https://img.shields.io/github/v/tag/movtigroup/Colab-Plugin?label=release&logo=git&logoColor=white)](CHANGELOG.md)
+[![CI](https://img.shields.io/github/actions/workflow/status/movtigroup/Colab-Plugin/validate.yml?branch=main&label=CI&logo=githubactions&logoColor=white)](.github/workflows/validate.yml)
+[![Last Commit](https://img.shields.io/github/last-commit/movtigroup/Colab-Plugin/main?logo=git&logoColor=white)](../../commits/main)
+[![Stars](https://img.shields.io/github/stars/movtigroup/Colab-Plugin?logo=github&label=stars)](../../stargazers)
+[![Repo Size](https://img.shields.io/github/repo-size/movtigroup/Colab-Plugin?label=size)](../../)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](README.md#-installation)
 [![Python](https://img.shields.io/badge/dev%20scripts-python%203.9%2B-blue?logo=python&logoColor=white)](scripts/)
 [![MCP](https://img.shields.io/badge/protocol-MCP%20%C2%B7%20stdio-8A2BE2)](https://modelcontextprotocol.io)
@@ -90,7 +90,7 @@ scripts/
 ## 🚀 Installation
 
 1. In ZCode: **Plugin Marketplace → Add → Add Plugin Marketplace**
-2. Paste the repository URL: `https://github.com/movtigroup/colab.git`
+2. Paste the repository URL: `https://github.com/movtigroup/Colab-Plugin.git`
 3. Install **Google Colab Tools** from the `movti-colab` marketplace
 4. Restart ZCode so the MCP server starts fresh
 

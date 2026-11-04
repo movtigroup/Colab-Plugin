@@ -14,7 +14,7 @@ There are many ways to contribute:
 ## Development setup
 
 ```bash
-git clone https://github.com/movtigroup/colab.git
+git clone https://github.com/movtigroup/Colab-Plugin.git
 cd colab
 python scripts/validate.py          # 15-point repo validation
 python scripts/smoke_colab_mcp.py   # requires: pip install uv
