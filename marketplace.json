@@ -4,7 +4,7 @@
     {
       "name": "colab",
       "source": "./colab",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Google Colab integration for ZCode: the official colab-mcp browser-bridge MCP server plus a google-colab-cli command reference for provisioning Colab runtimes (CPU/GPU/TPU), executing code, and transferring files.",
       "category": "developer-tools",
       "displayName": "Google Colab Tools",
